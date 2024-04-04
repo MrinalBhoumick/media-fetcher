@@ -1,0 +1,14 @@
+type Image {
+  id: ID!
+  url: String!
+}
+
+type Video {
+  id: ID!
+  url: String!
+}
+
+type Query {
+  listImages: [Image]
+  listVideos: [Video]
+}
